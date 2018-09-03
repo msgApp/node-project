@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
+var test = '';
 
 app.set('view engine', 'jade');
 app.set('viesw', './views');
